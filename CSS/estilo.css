@@ -9,12 +9,19 @@
 
 .fora{
     display: flex;
-    height: 100vh; 
-    padding: 20px;
-    align-items: flex-start;
-    justify-content: center;
-    font-size: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
 }
+
+p{
+    text-align: center;
+    font-size: 90px;
+    color: #000;
+    font-weight: 1000;
+}
+
+
 
 body{
     display: flex;
